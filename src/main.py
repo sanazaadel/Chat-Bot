@@ -1,13 +1,9 @@
-from src.utils import generate_text
 import streamlit as st
+from utils.utils import generate_text
 
-"""
-    Streamlit app for an Ollama-powered chat bot.
-    Allows users to interact with various Ollama models in a chat interface.    
-"""
+
 # ---------- Page config ----------
-st.theme    = "dark"
-st.set_page_config(layout="wide")
+st.theme = "dark"
 st.title(":llama: Ollama Chat Bot")
 
 col1, col2 = st.columns([1, 4])

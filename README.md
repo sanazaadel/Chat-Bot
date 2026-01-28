@@ -36,4 +36,4 @@ This is a simple chat bot application built using Streamlit and Ollama's languag
 - Click "New chat" to start a new conversation.
 ## Customization
 - You can modify the list of available models in the `src/main.py` file.
-- Adjust the prompt generation logic in `src/utils.py` to change how user inputs are processed.
+- Adjust the prompt generation logic in `src/utils/utils.py` to change how user inputs are processed.
