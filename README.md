@@ -1,16 +1,11 @@
-### Chat Bot with Ollama and Streamlit
+### Ollama Chat Bot 
 This is a simple chat bot application built using Streamlit and Ollama's language models. The app allows users to select from various Ollama models and interact with them in a chat interface.
 ## Prerequisites
 - Python 3.7 or higher
 - An Ollama account and API access
 ## Installation
 1. Clone the repository         
-    ```bash     
-   ```
 2. Navigate to the project directory:
-    ```bash 
-   cd Chat-Bot    
-    ```
 3. Install the required dependencies:
     ```bash 
    pip install -r requirements.txt
@@ -33,7 +28,7 @@ This is a simple chat bot application built using Streamlit and Ollama's languag
     ```bash 
    streamlit run src/main.py    
     ```     
-2. Open your web browser and go to `http://localhost:8501` to access the chat bot interface.
+2. Open your web browser and access the chat bot interface.
 ## Usage
 - Select an Ollama model from the sidebar.
 - Type your message in the input box and press Enter to send it.
