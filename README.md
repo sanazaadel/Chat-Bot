@@ -15,7 +15,7 @@ This is a simple chat bot application built using Streamlit and Ollama's languag
    ollama pull <model-name>    
     ```
 ## Setting up Environment Variables
-1. Add PYTHONPATH to your environment variables to include the `src` directory. You can do this by adding the following line to your shell configuration file (e.g., `.bashrc`, `.zshrc`):
+1. Add PYTHONPATH to your environment variables to include the `src` directory. You can do this by adding the following line to your shell configuration file:
     ```bash 
    export PYTHONPATH=$PYTHONPATH:{pwd}   
     ```
