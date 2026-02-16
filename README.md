@@ -29,6 +29,9 @@ This is a simple chat bot application built using Streamlit and Ollama's languag
    streamlit run src/main.py    
     ```     
 2. Open your web browser and access the chat bot interface.
+
+Here is a snapshot of the chat bot interface:
+![alt text](<App view.png>)
 ## Usage
 - Select an Ollama model from the sidebar.
 - Type your message in the input box and press Enter to send it.
